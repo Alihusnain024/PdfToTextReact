@@ -3,20 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Test from './Test';
-import ExcelToTextConverter from './Test1';
-import PdfToTextConverter from './PdfToTextConverter';
-import TextToImage from './TextToImage';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <Test /> */}
     <App/>
-    {/* <ExcelToTextConverter/> */}
-    {/* <PdfToTextConverter/> */}
-    {/* <TextToImage/> */}
-    
+  
     
   </React.StrictMode>
 );
